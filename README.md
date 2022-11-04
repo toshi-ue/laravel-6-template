@@ -78,11 +78,29 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
 # My Laravel6 boilerplate
 
+This is my boilerplate of Laravel 6.20.26
+
 ## Introduction
 
 There are two types of patterns that use Vue.js or React.js.
 We have prepared a brunch, so please choose the one you like.
-If you don't use Vue.js etc.
+[Branch with-vue.js2](https://github.com/toshi-ue/laravel-6-template/tree/with-vue.js2)
+
+## Preinstalled Packages
+
+for Laravel
+|||
+|---------|----------|
+| doctrine/dbal| 2.* |
+<!-- doctrine/dbal || -->
+<!-- laravel/tinker |[laravel/tinker: Powerful REPL for the Laravel framework.](https://github.com/laravel/tinker)| -->
+<!-- MySQL|5.7| -->
+
+<!-- for Vue.js2(frontend)
+|||
+---------|----------|
+Vue.js | 2.5.x |
+Bootstrap | 4.x | -->
 
 ## Requirements
 
@@ -90,7 +108,6 @@ If you don't use Vue.js etc.
 ---------|----------|
 macOS | BigSur |
 PHP |8.0.x|
-Laravel|6.20.x|
 MySQL|5.7|
 
 ## Setup
@@ -98,5 +115,26 @@ MySQL|5.7|
 After cloning this repository and `???`, you can start developing immediately by running the following command.
 
 ```bash
+# 以下の3つのどれかからコマンドを選ぶ(なにもなし or BootStrap4のみ or Vue .js(2)+BootStrap4 or React.js+BootStrap4)
+# php artisan ui --auth;
+# php artisan ui bootstrap --auth;
+php artisan ui vue --auth;
+# php artisan ui react --auth;
 npm install --legacy-peer-deps;
 ```
+
+## Operation check
+
+Execute the following commands in the terminal in separate tabs.
+
+```bash
+php artisan serve;
+```
+
+```bash
+npm run watch;
+```
+
+and access `localhost:8000`.
+
+<!-- [Laravel 6系でmake:authを使う方法 - Qiita](https://qiita.com/rei67/items/d6d0f5f6e58edbb17c09) -->
