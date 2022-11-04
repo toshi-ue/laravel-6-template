@@ -7,8 +7,16 @@ This is my boilerplate of Laravel 6.20.26( with MySQL 5.7).
 
 ## Introduction
 
-There are three types of patterns that use Vue.js or React.js.
-We have prepared a brunch, so please choose the one you like.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+only BootStrap4(not designed login and register page)
+[Branch at main(with BootStrap4)](https://github.com/toshi-ue/laravel-6-template)
 
 only BootStrap4(not designed login and register page)
 [Branch at main(with BootStrap4)](https://github.com/toshi-ue/laravel-6-template)
