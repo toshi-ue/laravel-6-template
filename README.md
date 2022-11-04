@@ -7,20 +7,24 @@ This is my boilerplate of Laravel 6.20.26( with MySQL 5.7).
 
 ## Introduction
 
-There are two types of patterns that use Vue.js or React.js.
+There are three types of patterns that use Vue.js or React.js.
 We have prepared a brunch, so please choose the one you like.
+
 only BootStrap4(not designed login and register page)
-[toshi-ue/laravel-6-template](https://github.com/toshi-ue/laravel-6-template)
+[Branch at main(with BootStrap4)](https://github.com/toshi-ue/laravel-6-template)
 
 Vue.js2 with BootStrap4
-[Branch with-vue.js2](https://github.com/toshi-ue/laravel-6-template/tree/with-vue.js2)
+[Branch at with-vue.js2](https://github.com/toshi-ue/laravel-6-template/tree/with-vue.js2)
 
-## Preinstalled Packages
+React.js16.2 with BootStrap4
+[Branch at with-react.js16.2](https://github.com/toshi-ue/laravel-6-template/tree/with-react.js16.2)
+
+<!-- ## Preinstalled Packages
 
 for Laravel
 |||
 |---------|----------|
-| doctrine/dbal| 2.* |
+| doctrine/dbal| 2.* | -->
 
 ## Requirements
 
