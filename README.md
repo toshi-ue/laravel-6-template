@@ -36,7 +36,9 @@ MySQL|5.7|
 
 ## Setup
 
-After cloning this repository and `???`, you can start developing immediately by running the following command.
+After cloning this repository and `???`, create a database and change `DB_DATABASE` in the `.env` file to the same name as the created database.
+
+And you can start developing immediately by running the following command.
 
 ```bash
 composer update;
