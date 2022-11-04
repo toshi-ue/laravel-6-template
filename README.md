@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -75,4 +75,28 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
+# My Laravel6 boilerplate
+
+## Introduction
+
+There are two types of patterns that use Vue.js or React.js.
+We have prepared a brunch, so please choose the one you like.
+If you don't use Vue.js etc.
+
+## Requirements
+
+|||
+---------|----------|
+macOS | BigSur |
+PHP |8.0.x|
+Laravel|6.20.x|
+MySQL|5.7|
+
+## Setup
+
+After cloning this repository and `???`, you can start developing immediately by running the following command.
+
+```bash
+npm install --legacy-peer-deps;
+```
