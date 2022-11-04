@@ -39,6 +39,8 @@ MySQL|5.7|
 After cloning this repository and `???`, you can start developing immediately by running the following command.
 
 ```bash
+composer update;
+composer install;
 npm install --legacy-peer-deps;
 ```
 
